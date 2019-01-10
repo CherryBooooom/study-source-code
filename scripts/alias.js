@@ -3,6 +3,7 @@ const path = require('path')
 const resolve = p => path.resolve(__dirname, '../', p)
 
 module.exports = {
+  // vue: path.resolve(__dirname, '../src/platforms/web/entry-runtime-with-compiler')
   vue: resolve('src/platforms/web/entry-runtime-with-compiler'),
   compiler: resolve('src/compiler'),
   core: resolve('src/core'),

@@ -1,5 +1,6 @@
 /* @flow */
 
+// Vue 真正入口
 import Vue from 'core/index'
 import config from 'core/config'
 import { extend, noop } from 'shared/util'
